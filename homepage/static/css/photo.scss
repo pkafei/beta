@@ -1,0 +1,15 @@
+@import "bourbon/bourbon";
+@import "neat/neat";	
+
+
+
+.main-container {
+	@include outer-container;
+	background-color: blue;
+}
+
+.shift-container {
+	@include span-columns(6);
+	background-color: green;
+	@include shift(3);
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"landing.css","sources":["landing.scss"],"sourcesContent":["// @import \"bourbon\";\n//  s\n\nbody {\n\tbackground-color: blue;\n\n    margin: 0;\n    padding: 0;\n}\n"],"mappings":"AAGA,AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,IAAK;EAEpB,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE,GACd","names":[],"sourceRoot":"/source/"}

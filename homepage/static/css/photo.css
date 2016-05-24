@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.photo-container {
+  background: url("selfie-c.jpg"); }
+
+.main-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue; }
+  .main-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.span-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  background-color: green; }
+  .span-container:last-child {
+    margin-right: 0; }
+
+.shift-container {
+  margin-left: 25.58941%;
+  background-color: red; }
+
+/*# sourceMappingURL=photo.css.map */
